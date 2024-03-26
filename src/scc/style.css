@@ -1,0 +1,137 @@
+.conteiner {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.a3 {
+  text-decoration: none;
+}
+.span3 {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  text-decoration: none;
+}
+.span1 {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: #000;
+  text-decoration: none;
+}
+.main {
+  max-width: 1200px;
+}
+.block {
+  width: 1600px;
+  height: 600px;
+  background-color: #2f303a;
+}
+.titel {
+  padding-left: 452px;
+  padding-top: 200px;
+  color: #fff;
+  width: 696px;
+  height: 120px;
+}
+.header {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button {
+  width: 216px;
+  height: 50px;
+}
+.button1 {
+  margin-top: 350px;
+  margin-left: auto;
+}
+.section {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+.titel1 {
+  width: 366;
+  height: 42;
+  margin-top: 94px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+}
+.text {
+  list-style: none;
+  text-decoration: none;
+}
+.text1 {
+  text-decoration: none;
+}
+.div1 {
+  margin-top: 50px;
+  margin-bottom: 94;
+}
+.titel2 {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+  margin-left: center;
+  margin-right: center;
+  margin-top: 94px;
+}
+.section2 {
+  margin-top: 50px;
+  margin-bottom: 94px;
+}
+.footer {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 252px;
+}
+.ul {
+  width: 231px;
+  height: 81px;
+  list-style: none;
+  color: #fff;
+}
+.a1 {
+  color: #fff;
+  background: none;
+  text-decoration: none;
+  font-family: "roboto", serif;
+}
+.a {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.span {
+  font-family: var(--second-family);
+  color: #fff;
+}
+.a {
+  text-decoration: none;
+}
+.content {
+  max-width: 1200px;
+}
+.img1 {
+  padding-right: 30px;
+}
+.img2 {
+  padding-right: 30px;
+}
+.div1 {
+  margin-left: auto;
+  margin-right: auto;
+}
