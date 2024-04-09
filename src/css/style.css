@@ -1,0 +1,219 @@
+/*==============================color====================================*/
+:root {
+  --firstColor: #757575;
+  --secondtColor: #ffffff;
+  --colorHover: #2196f3;
+  --colorDefault: #212121;
+  --colorOpacity: rgba(255, 255, 255, 0.6);
+  --textcolor: #000000;
+}
+/*=================================color===================================*/
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+/*==================header====================*/
+.header-logo {
+  /* font-family: var(--second-family); */
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  padding-right: 93px;
+}
+.logo-part-header {
+  /* font-family: var(--second-family); */
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.header {
+  margin-top: 25px;
+  display: flex;
+}
+.nav-list {
+  padding-top: 10px;
+  display: flex;
+  gap: 50px;
+  padding-right: 344px;
+}
+.header-contakts {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  display: flex;
+  gap: 50px;
+}
+.hero {
+  padding-top: 200px;
+  display: block;
+  max-width: 1600px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background: #2f303a;
+  color: #fff;
+}
+.hero-titel {
+  display: flex;
+  justify-content: center;
+  width: 696px;
+  height: 120px;
+  max-width: 1200px;
+  margin: auto;
+  font-family: var(--font-family);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 136%;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+.hero-button {
+  margin-left: 692px;
+  width: 216px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 187%;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #ffffff;
+  background-color: #2196f3;
+  border: 2px solid #2f303a;
+  border-radius: 4px;
+  margin-top: 30px;
+  margin-bottom: 200px;
+}
+
+/*================================main===========================*/
+.adventeges-list {
+  margin-top: 94px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.adventeges-item {
+  width: 270px;
+  height: 98px;
+}
+.adventeges-titel {
+  padding-bottom: 10px;
+}
+.adventeges-container {
+  color: #757575;
+}
+.work {
+  padding-top: 94px;
+}
+.work-titel {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+}
+.team {
+  margin-top: 188px;
+  padding-bottom: 94px;
+}
+.work-photo {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.team-titel {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+}
+.teamate {
+  display: flex;
+  justify-content: center;
+  width: 1170px;
+  height: 368px;
+  gap: 30px;
+  background-color: #fff;
+}
+.team-titel {
+  margin-bottom: 50px;
+}
+.teammete-photo {
+  width: 270px;
+  height: 260px;
+}
+.text-container {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+}
+/*=======================footer===================================*/
+.footer {
+  padding-top: 60px;
+  background-color: #2f303a;
+  max-width: 1600px;
+  margin: auto;
+}
+.footer-logo {
+  padding-left: 215px;
+
+  max-width: 1200px;
+  margin: auto;
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+
+  justify-content: start;
+}
+.logo-part {
+  max-width: 1200px;
+  margin: auto;
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+.footer-list {
+  padding-left: 215px;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  color: #fff;
+}
+/*======================================portfolio===========================================*/
+.portfolio-filter {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+.portfolio-projekts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+.prodjekt-text {
+  width: 322px;
+  height: 70px;
+}
+.prodjekt {
+  width: 370px;
+  height: 404px;
+}
+.portfolio-container {
+  margin-left: 24px;
+}

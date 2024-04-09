@@ -14,10 +14,10 @@
     <link rel="stylesheet" href="./src/css/style.css" />
   </head>
   <body>
+    <div class="container">
     <header class="header">
-      <div class="container">
         <a class="header-logo" href="#"
-          >Web <span class="logo-part">Studio</span></a
+          >Web <span class="logo-part-header">Studio</span></a
         >
         <nav class="header-nav">
           <ul class="nav-list">
@@ -46,38 +46,46 @@
     </header>
     <main class="main">
       <section class="hero">
-        <h1 class="hero-titel">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШЕГО БІЗНЕСУ</h1>
-        <button class="hero-button">замовити послугу</button>
+          <h1 class="hero-titel">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШЕГО БІЗНЕСУ</h1>
+          <button class="hero-button">замовити послугу</button>
       </section>
       <div class="container">
         <section class="adventeges">
           <ul class="adventeges-list">
             <li class="adventeges-item">
               <h2 class="adventeges-titel">УВАГА ДО ДЕТАЛЕЙ</h2>
-              <p class="adventeges-text">
-                Ідейні міркування, і навіть початок повсякденної роботи з
-                формування позиції.
-              </p>
+              <div class="adventeges-container">
+                <p class="adventeges-text">
+                  Ідейні міркування, і навіть початок повсякденної роботи з
+                  формування позиції.
+                </p>
+              </div>             
             </li>
             <li class="adventeges-item">
               <h2 class="adventeges-titel">ПУНКТУАЛЬНІСТЬ</h2>
-              <p class="adventeges-text">
-                Завдання організації, особливо рамки і місце навчання кадрів
-                тягне у себе.
-              </p>
+              <div class="adventeges-container">
+                <p class="adventeges-text">
+                  Завдання організації, особливо рамки і місце навчання кадрів
+                  тягне у себе.
+                </p>
+              </div>
             </li>
             <li class="adventeges-item">
               <h2 class="adventeges-titel">ПЛАНУВАННЯ</h2>
-              <p class="adventeges-text">
-                Так само консультація з широким активом значною мірою зумовлює
-              </p>
+              <div class="adventeges-container">
+                <p class="adventeges-text">
+                  Так само консультація з широким активом значною мірою зумовлює
+                </p>
+              </div>
             </li>
             <li class="adventeges-item">
               <h2 class="adventeges-titel">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
-              <p class="adventeges-text">
-                Значимість цих проблем настільки очевидна, що реалізація
-                планових завдань.
-              </p>
+              <div class="adventeges-container">
+                <p class="adventeges-text">
+                  Значимість цих проблем настільки очевидна, що реалізація
+                  планових завдань.
+                </p>
+              </div>
             </li>
           </ul>
         </section>
@@ -98,8 +106,10 @@
                 src="./src/img/igor.jpg"
                 alt="Ігор Дем'яненко"
               />
-              <h3 class="teammete-name">Ігор Дем'яненко</h3>
-              <p class="teammete-role">Product Designer</p>
+              <div class="text-container">
+                <h3 class="teammete-name">Ігор Дем'яненко</h3>
+                <p class="teammete-role">Product Designer</p>
+              </div>
             </article>
             <article class="photo-container">
               <img
@@ -107,8 +117,11 @@
                 src="./src/img/olga.jpg"
                 alt="Ольга Рєпіна"
               />
-              <h3 class="teammete-name">Ольга Рєпіна</h3>
-              <p class="teammete-role">Frontend Developer</p>
+              <div class="text-container">
+                <h3 class="teammete-name">Ольга Рєпіна</h3>
+                <p class="teammete-role">Frontend Developer</p>
+              </div>
+              
             </article>
             <article class="photo-container">
               <img
@@ -116,8 +129,11 @@
                 src="./src/img/mikola.jpg"
                 alt="Микола Тарасов"
               />
-              <h3 class="teammete-name">Микола Тарасов</h3>
-              <p class="teammete-role">Marketing</p>
+              <div class="text-container">
+                <h3 class="teammete-name">Микола Тарасов</h3>
+                <p class="teammete-role">Marketing</p>
+              </div>
+              
             </article>
             <article class="photo-container">
               <img
@@ -125,17 +141,23 @@
                 src="./src/img/michailo.jpg"
                 alt="Михайло Єрмаков"
               />
-              <h3 class="teammete-name">Михайло Єрмаков</h3>
-              <p class="teammete-role">UI Designer</p>
+              <div class="text-container">
+                <h3 class="teammete-name">Михайло Єрмаков</h3>
+                <p class="teammete-role">UI Designer</p>
+              
+              </div>
             </article>
           </div>
         </section>
       </div>
     </main>
     <footer class="footer">
-      <a class="footer-logo" href="#"
+      <div class="footer-logo-div">
+        <a class="footer-logo" href="#"
         >Web<span class="logo-part">Studio</span></a
       >
+      </div>
+      
       <ul class="footer-list">
         <li class="footer-item">
           <a class="footer-link" href="#"></a>
