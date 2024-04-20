@@ -7,42 +7,39 @@
   --colorOpacity: rgba(255, 255, 255, 0.6);
   --textcolor: #000000;
 }
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400px;
+  font-size: 14px;
+  color: var(--colorDefault);
+}
 /*=================================color===================================*/
 .container {
   max-width: 1200px;
-  margin: auto;
+  margin: 0 auto;
 }
 /*==================header====================*/
 .header-logo {
-  /* font-family: var(--second-family); */
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   letter-spacing: 0.03em;
-  color: #2196f3;
-  padding-right: 93px;
+  color: var(--colorHover);
 }
 .logo-part-header {
-  /* font-family: var(--second-family); */
-  font-weight: 700;
-  font-size: 26px;
-  letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--textcolor);
 }
-.header {
-  margin-top: 25px;
-  display: flex;
+.nav-link {
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }
-.nav-list {
-  padding-top: 10px;
-  display: flex;
-  gap: 50px;
-  padding-right: 344px;
+.nav-link:hover {
+  color: var(--colorHover);
 }
-.header-contakts {
-  padding-top: 10px;
-  padding-bottom: 15px;
-  display: flex;
-  gap: 50px;
+.contakts-link {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--firstColor);
 }
 .hero {
   padding-top: 200px;
@@ -60,29 +57,28 @@
   width: 696px;
   height: 120px;
   max-width: 1200px;
-  margin: auto;
-  font-family: var(--font-family);
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 44px;
-  line-height: 136%;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   text-align: center;
-  color: #fff;
+  color: var(--secondtColor);
 }
 .hero-button {
-  margin-left: 692px;
-  width: 216px;
-  height: 50px;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 187%;
   letter-spacing: 0.06em;
   text-align: center;
-  color: #ffffff;
-  background-color: #2196f3;
-  border: 2px solid #2f303a;
-  border-radius: 4px;
+  color: var(--secondtColor);
+  margin-left: 692px;
+  width: 216px;
+  height: 50px;
+  background-color: var(--colorHover);
   margin-top: 30px;
   margin-bottom: 200px;
 }
@@ -100,50 +96,61 @@
   height: 98px;
 }
 .adventeges-titel {
-  padding-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
 .adventeges-container {
-  color: #757575;
+  color: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+  color: var(--firstColor);
 }
 .work {
   padding-top: 94px;
 }
 .work-titel {
-  font-family: var(--font-family);
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.03em;
   text-align: center;
-  color: #212121;
+  color: var(--colorDefault);
 }
-.team {
-  margin-top: 188px;
-  padding-bottom: 94px;
-}
+
 .work-photo {
   display: flex;
   justify-content: center;
   gap: 30px;
+  margin-top: 50px;
 }
 
 .team-titel {
-  font-family: var(--font-family);
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.03em;
   text-align: center;
-  color: #212121;
+  color: var(--colorDefault);
+  padding-top: 48px;
+  margin-bottom: 50px;
+}
+.team {
+  max-width: 1600px;
+  margin: 0 auto;
+  margin-top: 188px;
+  padding-bottom: 94px;
+  background: #f5f4fa;
 }
 .teamate {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   width: 1170px;
   height: 368px;
   gap: 30px;
-  background-color: #fff;
-}
-.team-titel {
-  margin-bottom: 50px;
+  background-color: var(--secondtColor);
 }
 .teammete-photo {
   width: 270px;
@@ -157,6 +164,20 @@
   text-align: center;
   color: #212121;
 }
+.teammete-name {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--colorDefault);
+  margin-top: 30px;
+}
+.teammete-role {
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--firstColor);
+}
 /*=======================footer===================================*/
 .footer {
   padding-top: 60px;
@@ -165,32 +186,27 @@
   margin: auto;
 }
 .footer-logo {
-  padding-left: 215px;
-
   max-width: 1200px;
-  margin: auto;
-  font-family: var(--second-family);
+  margin: 0 auto;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   letter-spacing: 0.03em;
-  color: #2196f3;
-
-  justify-content: start;
+  color: var(--colorHover);
 }
 .logo-part {
-  max-width: 1200px;
-  margin: auto;
-  font-family: var(--second-family);
-  font-weight: 700;
-  font-size: 26px;
-  letter-spacing: 0.03em;
-  color: #fff;
+  color: var(--secondtColor);
 }
 .footer-list {
   padding-left: 215px;
   padding-top: 20px;
   padding-bottom: 60px;
-  color: #fff;
+  color: var(--colorOpacity);
+}
+.adres {
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: var(--secondtColor);
 }
 /*======================================portfolio===========================================*/
 .portfolio-filter {
