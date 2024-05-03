@@ -49,20 +49,15 @@ body {
   justify-content: center;
   align-items: center;
   background: #2f303a;
-  color: #fff;
+  color: var(--secondtColor);
 }
 .hero-titel {
-  display: flex;
-  justify-content: center;
   width: 696px;
   height: 120px;
-  max-width: 1200px;
-  margin: 0 auto;
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 44px;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
   text-align: center;
   color: var(--secondtColor);
 }
@@ -99,7 +94,6 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   margin-bottom: 10px;
 }
 .adventeges-container {
