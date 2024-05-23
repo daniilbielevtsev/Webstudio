@@ -6,18 +6,17 @@
   --colorDefault: #212121;
   --colorOpacity: rgba(255, 255, 255, 0.6);
   --textcolor: #000000;
+  --BGcolor: #2f303a;
+  --bgsecendory: #f5f4fa;
 }
 body {
   font-family: "Roboto", sans-serif;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 14px;
   color: var(--colorDefault);
 }
 /*=================================color===================================*/
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
+
 /*==================header====================*/
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -43,62 +42,40 @@ body {
 }
 .hero {
   padding-top: 200px;
-  display: block;
-  max-width: 1600px;
-  margin: auto;
-  justify-content: center;
-  align-items: center;
-  background: #2f303a;
+  padding-bottom: 200px;
+  background: var(--BGcolor);
   color: var(--secondtColor);
 }
 .hero-titel {
-  width: 696px;
-  height: 120px;
-  font-family: "Roboto", sans-serif;
+  max-width: 696px;
   font-weight: 900;
   font-size: 44px;
+  line-height: 1.36364;
   letter-spacing: 0.06em;
   text-align: center;
   color: var(--secondtColor);
 }
 .hero-button {
   border-radius: 4px;
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
-  line-height: 187%;
+  line-height: 1.87;
   letter-spacing: 0.06em;
   text-align: center;
+  padding: 10px 32px;
   color: var(--secondtColor);
-  margin-left: 692px;
-  width: 216px;
-  height: 50px;
   background-color: var(--colorHover);
-  margin-top: 30px;
-  margin-bottom: 200px;
 }
 
 /*================================main===========================*/
-.adventeges-list {
-  margin-top: 94px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-}
-.adventeges-item {
-  width: 270px;
-  height: 98px;
-}
 .adventeges-titel {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   letter-spacing: 0.03em;
-  margin-bottom: 10px;
+  margin-bottom: 10pxss;
 }
-.adventeges-container {
-  color: "Roboto", sans-serif;
+.adventeges-text {
   letter-spacing: 0.03em;
+  line-height: 1.71429;
   color: var(--firstColor);
 }
 .work {
@@ -111,60 +88,38 @@ body {
   text-align: center;
   color: var(--colorDefault);
 }
-
 .work-photo {
   display: flex;
   justify-content: center;
   gap: 30px;
-  margin-top: 50px;
 }
 
 .team-titel {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--colorDefault);
-  padding-top: 48px;
   margin-bottom: 50px;
 }
 .team {
-  max-width: 1600px;
-  margin: 0 auto;
-  margin-top: 188px;
   padding-bottom: 94px;
-  background: #f5f4fa;
+  background: var(--bgsecendory);
 }
 .teamate {
-  max-width: 1200px;
-  margin: 0 auto;
   display: flex;
   justify-content: center;
   width: 1170px;
   height: 368px;
   gap: 30px;
-  background-color: var(--secondtColor);
 }
-.teammete-photo {
-  width: 270px;
-  height: 260px;
-}
-.text-container {
-  font-family: var(--font-family);
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: #212121;
-}
+
 .teammete-name {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--colorDefault);
-  margin-top: 30px;
 }
 .teammete-role {
   font-size: 16px;
@@ -175,14 +130,9 @@ body {
 /*=======================footer===================================*/
 .footer {
   padding-top: 60px;
-  background-color: #2f303a;
-  max-width: 1600px;
-  margin: auto;
+  background-color: var(--BGcolor);
 }
 .footer-logo {
-  max-width: 1200px;
-  margin: 0 auto;
-  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   letter-spacing: 0.03em;
@@ -191,13 +141,13 @@ body {
 .logo-part {
   color: var(--secondtColor);
 }
-.footer-list {
-  padding-left: 215px;
-  padding-top: 20px;
-  padding-bottom: 60px;
+.footer-link {
+  line-height: 1.71429;
+  letter-spacing: 0.03em;
   color: var(--colorOpacity);
 }
 .adres {
+  font-style: normal;
   line-height: 171%;
   letter-spacing: 0.03em;
   color: var(--secondtColor);
@@ -208,6 +158,14 @@ body {
   justify-content: center;
   gap: 8px;
 }
+.filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 162%;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--colorDefault);
+}
 .portfolio-projekts {
   display: flex;
   flex-wrap: wrap;
@@ -216,14 +174,16 @@ body {
   margin-top: 94px;
   margin-bottom: 94px;
 }
+.prodjekt-titel {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
 .prodjekt-text {
-  width: 322px;
-  height: 70px;
-}
-.prodjekt {
-  width: 370px;
-  height: 404px;
-}
-.portfolio-container {
-  margin-left: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 187%;
+  letter-spacing: 0.03em;
+  color: var(--firstColor);
 }

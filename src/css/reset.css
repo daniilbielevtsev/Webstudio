@@ -18,3 +18,8 @@ h6 {
 ul {
   list-style: none;
 }
+button {
+  outline: 0;
+  border: 0;
+  font-family: inherit;
+}
