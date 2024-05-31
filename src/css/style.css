@@ -9,6 +9,13 @@
   --BGcolor: #2f303a;
   --bgsecendory: #f5f4fa;
 }
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -45,6 +52,7 @@ body {
   padding-bottom: 200px;
   background: var(--BGcolor);
   color: var(--secondtColor);
+  margin-bottom: 94px;
 }
 .hero-titel {
   max-width: 696px;
@@ -78,6 +86,9 @@ body {
   line-height: 1.71429;
   color: var(--firstColor);
 }
+.adventeges {
+  margin-bottom: 94px;
+}
 .work {
   padding-top: 94px;
 }
@@ -93,7 +104,9 @@ body {
   justify-content: center;
   gap: 30px;
 }
-
+.work {
+  margin-bottom: 94px;
+}
 .team-titel {
   font-weight: 700;
   font-size: 36px;
