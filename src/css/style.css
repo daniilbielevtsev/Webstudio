@@ -25,6 +25,21 @@ body {
 /*=================================color===================================*/
 
 /*==================header====================*/
+.header-container {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-list {
+  display: flex;
+  gap: 50px;
+}
+.header-contakts {
+  display: flex;
+  gap: 50px;
+}
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -55,6 +70,7 @@ body {
   margin-bottom: 94px;
 }
 .hero-titel {
+  margin: auto;
   max-width: 696px;
   font-weight: 900;
   font-size: 44px;
@@ -74,9 +90,19 @@ body {
   color: var(--secondtColor);
   background-color: var(--colorHover);
 }
-
+.hero-btn-container {
+  margin: auto;
+  width: 216px;
+  height: 50px;
+  padding-top: 30px;
+}
 /*================================main===========================*/
+.adventeges-list {
+  display: flex;
+  gap: 30px;
+}
 .adventeges-titel {
+  padding-bottom: 10px;
   font-weight: 700;
   letter-spacing: 0.03em;
   margin-bottom: 10pxss;
@@ -93,11 +119,15 @@ body {
   padding-top: 94px;
 }
 .work-titel {
+  padding-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--colorDefault);
+}
+.img {
+  max-width: 370px;
 }
 .work-photo {
   display: flex;
@@ -108,16 +138,25 @@ body {
   margin-bottom: 94px;
 }
 .team-titel {
+  padding-top: 94px;
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--colorDefault);
-  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+.teammete-photo {
+  max-width: 270px;
 }
 .team {
   padding-bottom: 94px;
   background: var(--bgsecendory);
+}
+.teammets {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
 .teamate {
   display: flex;
@@ -126,8 +165,12 @@ body {
   height: 368px;
   gap: 30px;
 }
-
+.teammete {
+  background-color: var(--secondtColor);
+  padding-bottom: 30px;
+}
 .teammete-name {
+  padding-top: 30px;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.03em;
@@ -135,6 +178,7 @@ body {
   color: var(--colorDefault);
 }
 .teammete-role {
+  padding-top: 10px;
   font-size: 16px;
   letter-spacing: 0.03em;
   text-align: center;
@@ -142,8 +186,12 @@ body {
 }
 /*=======================footer===================================*/
 .footer {
+  padding-bottom: 60px;
   padding-top: 60px;
   background-color: var(--BGcolor);
+}
+.footer-logo-container {
+  padding-bottom: 20px;
 }
 .footer-logo {
   font-weight: 700;
@@ -154,10 +202,14 @@ body {
 .logo-part {
   color: var(--secondtColor);
 }
+.footer-list {
+  padding-top: 20px;
+}
 .footer-link {
   line-height: 1.71429;
   letter-spacing: 0.03em;
   color: var(--colorOpacity);
+  padding-bottom: 10px;
 }
 .adres {
   font-style: normal;
@@ -166,6 +218,10 @@ body {
   color: var(--secondtColor);
 }
 /*======================================portfolio===========================================*/
+.portfolio {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
 .portfolio-filter {
   display: flex;
   justify-content: center;
@@ -179,6 +235,9 @@ body {
   text-align: center;
   color: var(--colorDefault);
 }
+.portfolio-container {
+  padding: 24px 20px;
+}
 .portfolio-projekts {
   display: flex;
   flex-wrap: wrap;
@@ -186,6 +245,9 @@ body {
   gap: 30px;
   margin-top: 94px;
   margin-bottom: 94px;
+}
+.prodjekt-photo {
+  max-width: 370px;
 }
 .prodjekt-titel {
   font-weight: 700;
