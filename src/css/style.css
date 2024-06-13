@@ -65,7 +65,11 @@ body {
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
-  background: var(--BGcolor);
+  background: rgba(39, 40, 51, 0.455);
+  background-image: url(../img/herobg-photo.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   color: var(--secondtColor);
   margin-bottom: 94px;
 }
@@ -114,6 +118,42 @@ body {
 }
 .adventeges {
   margin-bottom: 94px;
+}
+.adventeges-item:first-child {
+  padding-top: 150px;
+  background-image: url(../img/whyone.svg);
+  width: 270px;
+  height: 120px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.adventeges-item:last-child {
+  padding-top: 150px;
+  background-image: url(../img/whyfour.svg);
+  width: 270px;
+  height: 120px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.three-chield {
+  padding-top: 150px;
+  background-image: url(../img/whythree.svg);
+  width: 270px;
+  height: 120px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.two-chield {
+  padding-top: 150px;
+  background-image: url(../img/whytwo.svg);
+  width: 270px;
+  height: 120px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .work {
   padding-top: 94px;
@@ -166,6 +206,10 @@ body {
   gap: 30px;
 }
 .teammete {
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 0 0 4px 4px;
+  background: #fff;
   background-color: var(--secondtColor);
   padding-bottom: 30px;
 }
@@ -272,4 +316,8 @@ body {
   line-height: 187%;
   letter-spacing: 0.03em;
   color: var(--firstColor);
+}
+.prodjekt {
+  border: 1px solid #eee;
+  margin-bottom: 30px;
 }
