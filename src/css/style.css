@@ -93,6 +93,7 @@ body {
   padding: 10px 32px;
   color: var(--secondtColor);
   background-color: var(--colorHover);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 .hero-btn-container {
   margin: auto;
@@ -297,12 +298,12 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  flex-basis: calc((100% - 60px) / 3);
   margin-top: 94px;
   margin-bottom: 94px;
 }
 .prodjekt-photo {
   max-width: 370px;
+  position: center;
 }
 .prodjekt-titel {
   font-weight: 700;
@@ -320,4 +321,9 @@ body {
 .prodjekt {
   border: 1px solid #eee;
   margin-bottom: 30px;
+  flex-basis: calc((100% - 60px) / 3);
+}
+.prodjekt:hover {
+  box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06),
+    0 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
