@@ -437,15 +437,14 @@ body {
 }
 .portfolio-projekts {
   row-gap: 30px;
+  column-gap: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 94px;
   margin-bottom: 94px;
 }
-.prodjekt-photo {
-  width: 100%;
-}
+
 .prodjekt-titel {
   color: var(--textcolor);
   font-weight: 700;
@@ -462,7 +461,7 @@ body {
 }
 .prodjekt {
   border: 1px solid #eee;
-  flex-basis: calc((100% - 60px) / 3);
+  flex-basis: calc((100% -60px) / 3);
 }
 .prodjekt:hover {
   box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06),
