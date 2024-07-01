@@ -23,3 +23,7 @@ button {
   border: 0;
   font-family: inherit;
 }
+img {
+  display: block;
+  width: 100%;
+}

@@ -435,6 +435,7 @@ body {
   padding: 24px 20px;
 }
 .portfolio-projekts {
+  row-gap: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -442,8 +443,7 @@ body {
   margin-bottom: 94px;
 }
 .prodjekt-photo {
-  max-width: 370px;
-  position: center;
+  width: 100%;
 }
 .prodjekt-titel {
   font-weight: 700;
@@ -460,7 +460,6 @@ body {
 }
 .prodjekt {
   border: 1px solid #eee;
-  margin-bottom: 30px;
   flex-basis: calc((100% - 60px) / 3);
 }
 .prodjekt:hover {
