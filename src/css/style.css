@@ -37,6 +37,13 @@ body {
   display: flex;
   gap: 50px;
 }
+.header {
+  position: sticky;
+  top: 0;
+  background-color: var(--secondtColor);
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
 .header-contakts {
   display: flex;
   gap: 50px;
