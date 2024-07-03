@@ -203,33 +203,27 @@ body {
   text-align: center;
   color: var(--colorDefault);
 }
-.img {
-  max-width: 370px;
-}
 .work-photo {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
 }
-.work-artcle {
+.work-label {
   position: relative;
   flex-basis: calc((100% -60px) / 3);
 }
 .label {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-weight: 700;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-align: center;
-  height: 70px;
   background: rgba(47, 48, 58, 0.8);
+  padding-top: 27px;
+  padding-bottom: 27px;
   position: absolute;
   bottom: 0;
-  right: 0;
-  left: 0;
+  width: 100%;
   color: var(--secondtColor);
 }
 .work {
@@ -254,6 +248,7 @@ body {
 .teammets {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 30px;
 }
 .teamate {
@@ -270,6 +265,7 @@ body {
   background: var(--secondtColor);
   background-color: var(--secondtColor);
   padding-bottom: 30px;
+  flex-basis: calc((100% -90px) / 4);
 }
 .teammete-name {
   padding-top: 30px;
