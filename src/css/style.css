@@ -405,10 +405,12 @@ body {
   letter-spacing: 0.03em;
   color: var(--secondtColor);
 }
+.container-info {
+  padding-right: 70px;
+}
 /* =================================================websit-icon============================ */
 .footer-container {
   display: flex;
-  gap: 70px;
 }
 .websit-icons-link {
   background-color: rgba(255, 255, 255, 0.1);
@@ -438,6 +440,9 @@ body {
   height: 22px;
   width: 22px;
   fill: var(--secondtColor);
+}
+.container-websites {
+  padding-right: 93px;
 }
 /* ======================================subscibes========================================= */
 .subscribes-titel {
