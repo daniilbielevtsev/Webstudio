@@ -439,6 +439,53 @@ body {
   width: 22px;
   fill: var(--secondtColor);
 }
+/* ======================================subscibes========================================= */
+.subscribes-titel {
+  color: var(--secondtColor);
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.subscribes {
+  margin-top: 20px;
+  display: flex;
+  gap: 12px;
+}
+.subscribes-icon {
+  width: 24px;
+  height: 24px;
+  fill: var(--secondtColor);
+}
+.subscribes-input {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: rgba(33, 150, 243, 0);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+  width: 358px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.subscribes-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 28px;
+  border-radius: 4px;
+  background-color: var(--colorHover);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 187%;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--secondtColor);
+}
 /*======================================portfolio===========================================*/
 .portfolio {
   margin-top: 94px;
