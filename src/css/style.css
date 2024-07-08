@@ -25,20 +25,20 @@ body {
   color: var(--icons-color);
 }
 /*=================================color===================================*/
-
 /*==================header====================*/
 .header-container {
-  padding-top: 24px;
-  padding-bottom: 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .nav-list {
   display: flex;
+  align-items: center;
   gap: 50px;
 }
 .header {
+  padding-top: 24px;
+  padding-bottom: 24px;
   z-index: 999;
   position: sticky;
   top: 0;
@@ -48,6 +48,7 @@ body {
 }
 .header-contakts {
   display: flex;
+  align-items: center;
   gap: 50px;
 }
 .header-logo {
@@ -98,6 +99,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--firstColor);
 }
+/* ======================hero============================== */
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
@@ -106,10 +108,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   color: var(--secondtColor);
-  margin-bottom: 94px;
 }
 .hero-titel {
-  margin: auto;
   max-width: 696px;
   font-weight: 900;
   font-size: 44px;
@@ -130,11 +130,12 @@ body {
   background-color: var(--colorHover);
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
-.hero-btn-container {
-  margin: auto;
+.hero-container {
   display: flex;
-  justify-content: center;
-  padding-top: 30px;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  gap: 30px;
 }
 /*================================main===========================*/
 .adventeges-list {
@@ -145,10 +146,9 @@ body {
 }
 .adventeges-titel {
   color: var(--textcolor);
-  padding-bottom: 10px;
   font-weight: 700;
   letter-spacing: 0.03em;
-  margin-bottom: 10pxss;
+  margin-bottom: 10px;
 }
 .adventeges-text {
   letter-spacing: 0.03em;
@@ -156,7 +156,8 @@ body {
   color: var(--firstColor);
 }
 .adventeges {
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .adventeges-item:first-child::before {
   content: "";
@@ -244,11 +245,13 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
 } */
+/* =============================work================================== */
 .work {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 .work-titel {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.03em;
@@ -278,19 +281,17 @@ body {
   width: 100%;
   color: var(--secondtColor);
 }
-.work {
-  margin-bottom: 94px;
-}
 .team-titel {
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--colorDefault);
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .teammete-photo {
   max-width: 270px;
+  margin-bottom: 30px;
 }
 .team {
   padding-top: 94px;
@@ -320,7 +321,7 @@ body {
   flex-basis: calc((100% -90px) / 4);
 }
 .teammete-name {
-  padding-top: 30px;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.03em;
@@ -328,7 +329,6 @@ body {
   color: var(--colorDefault);
 }
 .teammete-role {
-  padding-top: 10px;
   font-size: 16px;
   letter-spacing: 0.03em;
   text-align: center;
@@ -378,6 +378,7 @@ body {
   padding-bottom: 94px;
 }
 .klients-titel {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.03em;
@@ -385,7 +386,6 @@ body {
   color: var(--colorDefault);
 }
 .klients-list {
-  margin-top: 50px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -425,9 +425,6 @@ body {
   padding-top: 60px;
   background-color: var(--BGcolor);
 }
-.footer-logo-container {
-  padding-bottom: 20px;
-}
 .footer-logo {
   font-weight: 700;
   font-size: 26px;
@@ -438,7 +435,7 @@ body {
   color: var(--secondtColor);
 }
 .footer-list {
-  padding-top: 20px;
+  margin-top: 20px;
 }
 .footer-link {
   line-height: 1.71429;
@@ -453,7 +450,7 @@ body {
   color: var(--secondtColor);
 }
 .container-info {
-  padding-right: 70px;
+  margin-right: 70px;
 }
 /* =================================================websit-icon============================ */
 .footer-container {
@@ -469,7 +466,6 @@ body {
   align-items: center;
 }
 .websit-icons-list {
-  margin-top: 20px;
   display: flex;
   gap: 10px;
 }
@@ -477,6 +473,7 @@ body {
   background-color: var(--colorHover);
 }
 .websit-icons-titel {
+  margin-bottom: 20px;
   color: var(--secondtColor);
   font-weight: 700;
   font-size: 14px;
@@ -489,7 +486,7 @@ body {
   fill: var(--secondtColor);
 }
 .container-websites {
-  padding-right: 93px;
+  margin-right: 93px;
 }
 /* ======================================subscibes========================================= */
 .subscribes-titel {
@@ -497,9 +494,9 @@ body {
   font-weight: 700;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 .subscribes {
-  margin-top: 20px;
   display: flex;
   gap: 12px;
 }
@@ -548,13 +545,15 @@ body {
 }
 /*======================================portfolio===========================================*/
 .portfolio {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .portfolio-filter {
   display: flex;
   justify-content: center;
   gap: 8px;
+  margin-bottom: 34px;
+  height: 54px;
 }
 .filter-button {
   font-weight: 500;
@@ -576,7 +575,7 @@ body {
   color: var(--secondtColor);
 }
 .portfolio-container {
-  padding: 24px 20px;
+  margin: 20px 24px;
 }
 .portfolio-projekts {
   row-gap: 30px;
@@ -584,10 +583,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 94px;
-  margin-bottom: 94px;
 }
-
 .prodjekt-titel {
   color: var(--textcolor);
   font-weight: 700;
@@ -609,10 +605,4 @@ body {
 .prodjekt:hover {
   box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06),
     0 1px 1px 0 rgba(0, 0, 0, 0.12);
-}
-.line {
-  border: 1px solid #ececec;
-}
-button {
-  cursor: pointer;
 }
