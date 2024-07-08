@@ -138,6 +138,7 @@ body {
 }
 /*================================main===========================*/
 .adventeges-list {
+  flex-wrap: wrap;
   display: flex;
   justify-content: center;
   gap: 30px;
@@ -215,6 +216,8 @@ body {
 }
 .adventeges-item {
   flex-basis: calc((100% -90px) / 4);
+  width: 270px;
+  height: 248px;
 }
 /* .adventeges-item:last-child {
   background-image: url(../img/whyfour.svg);
@@ -279,7 +282,6 @@ body {
   margin-bottom: 94px;
 }
 .team-titel {
-  padding-top: 94px;
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.03em;
@@ -291,6 +293,7 @@ body {
   max-width: 270px;
 }
 .team {
+  padding-top: 94px;
   padding-bottom: 94px;
   background: var(--bgsecendory);
 }
