@@ -101,13 +101,19 @@ body {
 }
 /* ======================hero============================== */
 .hero {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  background: rgba(47, 48, 58, 0.4) url(../img/herobg-photo.svg);
+  background-image: url(../img/herobg-photo.svg);
+  position: relative;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: var(--secondtColor);
+}
+.overlay {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(47, 48, 58, 0.4);
 }
 .hero-titel {
   max-width: 696px;
@@ -138,9 +144,9 @@ body {
   gap: 30px;
 }
 /*================================main===========================*/
-.adventeges-list {
-  flex-wrap: wrap;
+.advantages-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
 }
@@ -159,7 +165,35 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.adventeges-item:first-child::before {
+.advantages-item::before {
+  content: "";
+  display: block;
+  height: 120px;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--adventejisbgcolor);
+  margin-bottom: 30px;
+}
+.advantages-item-1::before {
+  background-image: url(../img/adventedjis-firstphoto.svg);
+}
+.advantages-item-2::before {
+  background-image: url(../img/adventejis-clock.svg);
+}
+.advantages-item-3::before {
+  background-image: url(../img/adventejis-diagram.svg);
+}
+.advantages-item-4:before {
+  background-image: url(../img/adventejis-astronaut.svg);
+}
+.advantages-item {
+  flex-basis: calc((100% - 90px) / 4);
+}
+/* ;
+  width: 270px;
+  height: 248px; */
+/* .adventeges-item:first-child::before {
   content: "";
   display: flex;
   flex-direction: column;
@@ -215,11 +249,7 @@ body {
   height: 120px;
   border-radius: 4px;
 }
-.adventeges-item {
-  flex-basis: calc((100% -90px) / 4);
-  width: 270px;
-  height: 248px;
-}
+ */
 /* .adventeges-item:last-child {
   background-image: url(../img/whyfour.svg);
   width: 270px;
