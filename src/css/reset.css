@@ -34,3 +34,7 @@ input {
 button {
   cursor: pointer;
 }
+textarea {
+  border: 0px;
+  outline: none;
+}

@@ -66,36 +66,39 @@
             <div class="modal">
               <button class="modal-colse-button" data-modal-close><svg class="close-icon"><use href="./src/img/symbol-defs-hero.svg#icon-hero-close-icon"></use></svg></button>
               <h2 class="modal-titel">Залиште свої дані, ми вам передзвонимо</h2>
-              <div class="modal-regidter">
-                <label for="regidter-label"><span class="regidter-span">Ім'я</span></label>
-                <form action="#" class="regidter-name">
+              <form class="modal-regidter">
+                <label  class="regidter-span" for="name">Ім'я</label>
+                <div action="#" class="regidter-name">
                   <svg class="person-icon"><use href="./src/img/symbol-defs-hero.svg#icon-hero-person"></use></svg>
                   <input class="person-input" placeholder="" type="name" id="name">
-                </form>
-              </div>
-              <div class="modal-regidter">
-                <label for="regidter-label"><span class="regidter-span">Телефон</span></label>
-                <form action="#" class="regidter-name">
+                </div>
+              </form>
+              <form class="modal-regidter">
+                <label class="regidter-span" for="tell">Телефон</label>
+                <div class="regidter-name">
                   <svg class="person-icon"><use href="./src/img/symbol-defs-hero.svg#icon-hero-vector-icon"></use></svg>
                   <input class="person-input" placeholder="" type="tell"  id="tell">
-                </form>
-              </div>
-              <div class="modal-regidter">
-                <label for="regidter-label"><span class="regidter-span">Пошта</span></label>
-                <form action="#" class="regidter-name">
+                </div>
+              </form>
+              <form class="modal-regidter">
+                <label class="regidter-span" for="email">Пошта</label>
+                <div action="#" class="regidter-name">
                   <svg class="person-icon"><use href="./src/img/symbol-defs-hero.svg#icon-hero-email-icon"></use></svg>
                   <input class="person-input" placeholder="" type="email"  id="email">
-                </form>
-              </div>
-              <div class="modal-regidter">
-                <label for="regidter-label"><span class="regidter-span">Коментар</span></label>
-                <form action="#" class="regidter-message">
+                </div>
+              </form>
+              <form class="modal-regidter">
+                <label class="regidter-span" for="message">Коментар</label>
+                <!-- <form action="#" class="regidter-message">
                   <input class="person-input-message" placeholder="Введіть текст" type="message" id="message">
-                </form>
+                </form> -->
+                <div class="messeg-container">
+                <textarea class="register-message" id="message" name="cotact-massege" placeholder="Введіть текст"></textarea>
               </div>
+              </form>
               <div class="text-container">
                 <p class="register-text"><svg class="agree-icon"><use href="./src/img/symbol-defs-hero.svg#icon-hero-vector-agree"></use></svg>
-                  Погоджуюся з розсилкою та приймаю <span class="text-agree-span"> Умови договору</span></p>
+                  Погоджуюся з розсилкою та приймаю <span class="text-agree-span">Умови договору</span></p>
               </div>
               <div class="button-container">
                 <button class="subscribes-hero-btn">Відправити</button>
