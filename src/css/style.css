@@ -191,91 +191,6 @@ body {
 .advantages-item {
   flex-basis: calc((100% - 90px) / 4);
 }
-/* ;
-  width: 270px;
-  height: 248px; */
-/* .adventeges-item:first-child::before {
-  content: "";
-  display: flex;
-  flex-direction: column;
-  background-image: url(../img/adventedjis-firstphoto.svg);
-  margin-bottom: 30px;
-  background-repeat: no-repeat;
-  background-size: 70px 70px;
-  background-position: center;
-  background-color: var(--adventejisbgcolor);
-  width: 270px;
-  height: 120px;
-  border-radius: 4px;
-}
-.adventeges-item:last-child:before {
-  content: "";
-  display: flex;
-  flex-direction: column;
-  background-image: url(../img/adventejis-astronaut.svg);
-  margin-bottom: 30px;
-  background-repeat: no-repeat;
-  background-size: 70px 70px;
-  background-position: center;
-  background-color: var(--adventejisbgcolor);
-  width: 270px;
-  height: 120px;
-  border-radius: 4px;
-}
-.two-chield::before {
-  content: "";
-  display: flex;
-  flex-direction: column;
-  background-image: url(../img/adventejis-clock.svg);
-  margin-bottom: 30px;
-  background-repeat: no-repeat;
-  background-size: 70px 70px;
-  background-position: center;
-  background-color: var(--adventejisbgcolor);
-  width: 270px;
-  height: 120px;
-  border-radius: 4px;
-}
-.three-chield::before {
-  content: "";
-  display: flex;
-  flex-direction: column;
-  background-image: url(../img/adventejis-diagram.svg);
-  margin-bottom: 30px;
-  background-repeat: no-repeat;
-  background-size: 70px 70px;
-  background-position: center;
-  background-color: var(--adventejisbgcolor);
-  width: 270px;
-  height: 120px;
-  border-radius: 4px;
-}
- */
-/* .adventeges-item:last-child {
-  background-image: url(../img/whyfour.svg);
-  width: 270px;
-  height: 120px;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: contain;
-} */
-/* .three-chield {
-  background-image: url(../img/whythree.svg);
-  width: 270px;
-  height: 120px;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: contain;
-} */
-/* .two-chield {
-  padding-top: 150px;
-  background-image: url(../img/whytwo.svg);
-  width: 270px;
-  height: 120px;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: contain;
-} */
 /* =============================work================================== */
 .work {
   padding-top: 94px;
@@ -520,12 +435,16 @@ body {
   margin-right: 93px;
 }
 /* ======================================subscibes========================================= */
+.container-subscribes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 .subscribes-titel {
   color: var(--secondtColor);
   font-weight: 700;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-bottom: 20px;
 }
 .subscribes {
   display: flex;

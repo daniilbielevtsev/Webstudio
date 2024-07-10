@@ -58,13 +58,13 @@
   align-items: center;
   background-color: var(--secondtColor);
 }
-.modal-colse-button:hover .close-icon {
-  fill: var(--colorHover);
-}
 .close-icon {
   width: 18px;
   height: 18px;
   fill: var(--textcolor);
+}
+.modal-colse-button:hover .close-icon {
+  fill: var(--colorHover);
 }
 .modal-titel {
   font-weight: 700;
