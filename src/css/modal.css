@@ -78,9 +78,6 @@
   border: 1px solid var(--colorHover);
   border-radius: 4px;
 }
-.regidter-label {
-  margin-bottom: 4px;
-}
 .regidter-span {
   font-weight: 400;
   font-size: 12px;
@@ -102,6 +99,7 @@
 .modal-regidter {
   display: flex;
   flex-direction: column;
+  gap: 4px;
   margin-bottom: 10px;
 }
 /* =======================================message============================ */
