@@ -174,3 +174,7 @@
   resize: none;
   min-height: 96px;
 }
+.agree-checkbox {
+  width: 16px;
+  height: 15px;
+}
