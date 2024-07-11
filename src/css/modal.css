@@ -9,6 +9,7 @@
   --bgsecendory: #f5f4fa;
   --icons-color: #afb1b8;
   --adventejisbgcolor: #f5f4fa;
+  --rgbargba: (0, 0, 0, 0.2);
 }
 .body {
   font-family: "Roboto", sans-serif;
@@ -112,29 +113,11 @@
   margin-bottom: 10px;
   width: 100%;
 }
-
-/* =======================================message============================ */
-/* .regidter-message {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 16px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  border-radius: 4px;
-  width: 448px;
-}
-.regidter-message:hover {
-  border: 1px solid var(--colorHover);
-  border-radius: 4px;
-}
-.person-input-message {
-  font-size: 12px;
-  letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
-  padding-bottom: 84px;
-} */
 .modal-regidter:last-of-type {
   margin-bottom: 20px;
 }
+/* =======================================message============================ */
+
 /* ================================text-adree==========================/ */
 .agree-icon {
   width: 16px;
@@ -192,7 +175,4 @@
   resize: none;
   width: 100%;
   min-height: 96px;
-}
-.regidter-message::placeholder {
-  color: rgba(117, 117, 117, 0.5);
 }
