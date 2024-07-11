@@ -173,8 +173,10 @@
   margin: 12px 16px;
   resize: none;
   min-height: 96px;
+  min-width: 416px;
 }
 .agree-checkbox {
   width: 16px;
   height: 15px;
+  background-color: var(--textcolor);
 }
