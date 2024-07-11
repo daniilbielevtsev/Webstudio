@@ -173,6 +173,7 @@
   margin: 12px 16px;
   resize: none;
   min-height: 96px;
+  width: 100%;
   max-width: 416px;
   min-width: 416px;
 }
