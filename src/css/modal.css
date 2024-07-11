@@ -9,7 +9,6 @@
   --bgsecendory: #f5f4fa;
   --icons-color: #afb1b8;
   --adventejisbgcolor: #f5f4fa;
-  --rgbargba: (0, 0, 0, 0.2);
 }
 .body {
   font-family: "Roboto", sans-serif;
@@ -173,6 +172,5 @@
 .register-message {
   margin: 12px 16px;
   resize: none;
-  width: 100%;
   min-height: 96px;
 }
