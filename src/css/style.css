@@ -107,7 +107,7 @@ body {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../img/herobg-photo.svg);
+    url(../img/hero-bg-images.jpg);
   position: relative;
   background-position: center;
   background-size: cover;
