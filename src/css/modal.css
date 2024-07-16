@@ -131,7 +131,7 @@
   color: var(--firstColor);
   margin-bottom: 30px;
 }
-.text-agree-span {
+.text-agree-link {
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: var(--colorHover);
