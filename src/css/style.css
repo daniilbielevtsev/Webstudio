@@ -25,6 +25,10 @@ body {
   color: var(--icons-color);
 
 }
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 800px;
+}
 /*=================================color===================================*/
 /*==================header====================*/
 .header-container {
@@ -66,10 +70,26 @@ body {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: var(--textcolor);
+  position: relative;
 }
  .nav-link:hover {
   color: var(--colorHover);
 } 
+.nav-link::after{
+  position: absolute;
+  content: "";
+  width: 100%;
+  border-radius: 2px;
+  height: 4px;
+  background-color: var(--colorHover);
+  bottom: -31px;
+   opacity: 0; 
+  left: 0;
+}
+.link-active::after,
+.nav-link:hover::after {
+  opacity: 1;
+}
 .contakts-item:hover .mailto {
   fill: var(--colorHover);
 }
