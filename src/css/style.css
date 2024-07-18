@@ -23,6 +23,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   color: var(--icons-color);
+
 }
 /*=================================color===================================*/
 /*==================header====================*/
@@ -321,6 +322,7 @@ body {
 .klients {
   padding-top: 94px;
   padding-bottom: 94px;
+  position: relative;
 }
 .klients-titel {
   margin-bottom: 50px;
@@ -369,6 +371,30 @@ body {
   padding-bottom: 60px;
   padding-top: 60px;
   background-color: var(--BGcolor);
+}
+.scrol-top {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  background-color: #c2c2c257;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  right: 30px;
+  bottom: 30px;
+  border: 0.5px solid rgba(0, 0, 0, 0.438);
+}
+.scrol-top-icon {
+  fill:#0000007a;
+  width: 25px;
+  height: 25px;
+}
+.scrol-top:hover .scrol-top-icon {
+  fill: var(--colorHover);
+}
+.scrol-top:hover {
+  background-color: #ffffff21;
 }
 .footer-logo {
   font-weight: 700;
