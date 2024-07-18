@@ -602,12 +602,12 @@ html {
     0 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
 .overlay-text {
-  padding: 63px 24px;
+  padding: 64px 27px;
   background-color: rgba(33, 150, 243, 0.9) ;
   color: var(--adventejisbgcolor);
   transform: translateY(+100%);
   position: absolute;
-  transition: 1.5s;
+  transition: 1s;
   font-size: 18px;
   line-height: 156%;
   letter-spacing: 0.03em;
@@ -621,5 +621,5 @@ html {
 }
 .overlay-figur {
   position: relative;
-  overflow: hidden;
+  overflow: hidden; 
 }
