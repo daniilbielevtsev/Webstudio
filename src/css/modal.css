@@ -85,7 +85,11 @@
 .regidter-name:hover .person-icon {
   fill: var(--colorHover);
 }
-.regidter-name:hover {
+.regidter-name:focus-within {
+  fill: var(--colorHover);
+}
+.regidter-name:hover,
+.regidter-name:focus-within {
   border: 1px solid var(--colorHover);
   border-radius: 4px;
 }
@@ -165,7 +169,8 @@
   border-radius: 4px;
   max-width: 448px;
 }
-.messeg-container:hover {
+.messeg-container:hover,
+.messeg-container:focus-within {
   border: 1px solid var(--colorHover);
   border-radius: 4px;
 }
