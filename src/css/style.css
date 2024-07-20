@@ -23,7 +23,6 @@ body {
   font-weight: 400;
   font-size: 14px;
   color: var(--icons-color);
-
 }
 html {
   scroll-behavior: smooth;
@@ -72,10 +71,10 @@ html {
   color: var(--textcolor);
   position: relative;
 }
- .nav-link:hover {
+.nav-link:hover {
   color: var(--colorHover);
-} 
-.nav-link::after{
+}
+.nav-link::after {
   position: absolute;
   content: "";
   width: 100%;
@@ -83,7 +82,7 @@ html {
   height: 4px;
   background-color: var(--colorHover);
   bottom: -31px;
-   opacity: 0; 
+  opacity: 0;
   left: 0;
 }
 .link-active::after,
@@ -406,7 +405,7 @@ html {
   border: 0.5px solid rgba(0, 0, 0, 0.438);
 }
 .scrol-top-icon {
-  fill:#0000007a;
+  fill: #0000007a;
   width: 25px;
   height: 25px;
 }
@@ -603,7 +602,7 @@ html {
 }
 .overlay-text {
   padding: 64px 27px;
-  background-color: rgba(33, 150, 243, 0.9) ;
+  background-color: rgba(33, 150, 243, 0.9);
   color: var(--adventejisbgcolor);
   transform: translateY(+100%);
   position: absolute;
@@ -615,11 +614,11 @@ html {
   justify-content: center;
   align-items: center;
 }
-.overlay-figur:hover .overlay-text {
+.prodjekt:hover .overlay-figur .overlay-text {
   top: 0;
   transform: translate(0);
 }
 .overlay-figur {
   position: relative;
-  overflow: hidden; 
+  overflow: hidden;
 }
