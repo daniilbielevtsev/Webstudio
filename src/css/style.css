@@ -10,6 +10,7 @@
   --bgsecendory: #f5f4fa;
   --icons-color: #afb1b8;
   --adventejisbgcolor: #f5f4fa;
+  --transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .container {
   max-width: 1200px;
@@ -70,6 +71,9 @@ html {
   letter-spacing: 0.02em;
   color: var(--textcolor);
   position: relative;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--transition);
 }
 .nav-link:hover {
   color: var(--colorHover);
@@ -96,11 +100,17 @@ html {
   width: 16px;
   height: 12px;
   fill: var(--firstColor);
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: var(--transition);
 }
 .phone {
   width: 10px;
   height: 16px;
   fill: var(--firstColor);
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: var(--transition);
 }
 .contakts-item:hover .phone {
   fill: var(--colorHover);
@@ -110,14 +120,15 @@ html {
   align-items: center;
   justify-content: center;
   gap: 10px;
-}
-.contakts-item:hover .contakts-link {
-  color: var(--colorHover);
-}
-.contakts-link {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: var(--firstColor);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--transition);
+}
+.contakts-item:hover .contakts-link {
+  color: var(--colorHover);
 }
 /* ======================hero============================== */
 .hero {
@@ -334,6 +345,9 @@ html {
   width: 20px;
   height: 20px;
   fill: var(--icons-color);
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: var(--transition);
 }
 .partner-link {
   width: 44px;
@@ -370,10 +384,16 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: var(--transition);
 }
 .klients-logo {
   width: 106px;
   height: 60px;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: var(--transition);
 }
 .klients-link:hover {
   border: 1px solid var(--colorHover);
@@ -413,6 +433,9 @@ html {
   fill: #0000007a;
   width: 25px;
   height: 25px;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: var(--transition);
 }
 .scrol-top:hover .scrol-top-icon {
   fill: var(--colorHover);
@@ -459,6 +482,9 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--transition);
 }
 .websit-icons-list {
   display: flex;
@@ -564,6 +590,9 @@ html {
   border-radius: 4px;
   padding: 6px 22px;
   background: var(--bgsecendory);
+  transition-property: background-color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: var(--transition);
 }
 .filter-button:hover {
   border-radius: 4px;
@@ -600,6 +629,9 @@ html {
 .prodjekt {
   border: 1px solid #eee;
   flex-basis: calc((100% -60px) / 3);
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: var(--transition);
 }
 .prodjekt:hover {
   box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06),
