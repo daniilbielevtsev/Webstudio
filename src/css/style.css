@@ -86,12 +86,13 @@ html {
   height: 4px;
   background-color: var(--colorHover);
   bottom: -31px;
-  opacity: 0;
   left: 0;
+  transform: scaleX(0);
+  transition: transform  250ms var(--transition); 
 }
 .link-active::after,
 .nav-link:hover::after {
-  opacity: 1;
+  transform: scaleX(1);
 }
 .contakts-item:hover .mailto {
   fill: var(--colorHover);
