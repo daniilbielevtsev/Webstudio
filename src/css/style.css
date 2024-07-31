@@ -166,7 +166,7 @@ html {
   color: var(--secondtColor);
   background-color: var(--colorHover);
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  transition: background-color 250ms var(--transition) ;
+  transition: background-color 250ms var(--transition);
 }
 .hero-button:hover {
   background-color: #39a6ff;
@@ -648,7 +648,7 @@ html {
   color: var(--adventejisbgcolor);
   transform: translateY(+100%);
   position: absolute;
-  transition: 1s;
+  transition: transform 250ms var(--transition);
   font-size: 18px;
   line-height: 156%;
   letter-spacing: 0.03em;
