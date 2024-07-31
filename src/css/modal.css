@@ -67,12 +67,13 @@
   width: 18px;
   height: 18px;
   fill: var(--textcolor);
-  transition-property: fill;
+  transition-property: fill, transform;
   transition-duration: 250ms;
   transition-timing-function: var(--transition);
 }
 .modal-colse-button:hover .close-icon {
   fill: var(--colorHover);
+  transform: scale(1.2);
 }
 .modal-titel {
   font-weight: 700;
@@ -162,6 +163,10 @@
   border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #2196f3;
+  transition: background-color 250ms var(--transition);
+}
+.subscribes-hero-btn:hover {
+  background-color: #0871c6;
 }
 .text-container {
   display: flex;

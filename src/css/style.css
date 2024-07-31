@@ -166,10 +166,13 @@ html {
   color: var(--secondtColor);
   background-color: var(--colorHover);
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  transition: background-color 250ms var(--transition);
+  transition-property: background-color, transform;
+  transition: 250ms var(--transition);
+  transform: scale(1);
 }
 .hero-button:hover {
-  background-color: #39a6ff;
+  background-color: #0871c6;
+  transform: scale(1.1);
 }
 .hero-container {
   display: flex;
@@ -353,6 +356,11 @@ html {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: var(--transition);
+  transition-duration: fill;
+  transition: 250ms var(--transition);
+}
+.partner-icon:hover {
+  fill: var(--secondtColor);
 }
 .partner-link {
   width: 44px;
@@ -563,8 +571,11 @@ html {
   letter-spacing: 0.06em;
   text-align: center;
   color: var(--secondtColor);
+  transition: background-color 250ms var(--transition);
 }
-
+.subscribes-button:hover {
+  background-color: #0871c6;
+}
 .subscribes-button::after {
   content: "";
   background-image: url(../img/subscribei-img.svg);
@@ -572,6 +583,10 @@ html {
   background-position: center;
   width: 24px;
   height: 24px;
+  transition: transform 550ms var(--transition);
+}
+.subscribes-button:hover::after {
+  transform: rotate(360deg);
 }
 /*======================================portfolio===========================================*/
 .portfolio {
