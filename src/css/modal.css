@@ -22,21 +22,8 @@
   opacity: 0;
   pointer-events: none;
 }
-.modal {
-  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
-    0 1px 3px 0 rgba(0, 0, 0, 0.12);
-  background: var(--secondtColor);
-  border-radius: 4px;
-  padding: 40px 40px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: var(--secondtColor);
-}
-.contact-form {
-  max-width: 448px;
-  margin: 0 auto;
+.backdrob.is-hidden .modal {
+  transform: translate(-50%, -50%) scale(0);
 }
 .backdrob {
   z-index: 999;
@@ -46,7 +33,31 @@
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.2);
+  opacity: 1;
+  transition-property: opacity, transform;
+  transition-duration: 0.5s;
+  transition-timing-function: ease ;
 }
+.modal {
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  background: var(--secondtColor);
+  border-radius: 4px;
+  padding: 40px 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  background-color: var(--secondtColor);
+  transition-property: transform;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+}
+.contact-form {
+  max-width: 448px;
+  margin: 0 auto;
+}
+
 .no-skroll {
   overflow: hidden;
 }
