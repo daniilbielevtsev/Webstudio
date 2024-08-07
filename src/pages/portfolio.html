@@ -4,24 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-----------animate.style---------->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-------------AOS----------->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!----------google-fonts---------->
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <!------------normolize.css----------------->
     <link rel="stylesheet" href="../css/reset.css" />
+    <!----------reset.css------------->
     <link rel="stylesheet" href="../css/style.css" />
+    <!----------style.css------------->
     <link
       rel="website icon"
       href="https://avatars.githubusercontent.com/u/98718582?v=4"
     />
+    <!-------------websire-icon----------------->
   </head>
   <body>
     <header class="header">
       <div class="container header-container">
-        <a class="header-logo" href="#"
-          >Web<span class="logo-part-header">Studio</span></a
+        <a class="header-logo animate__animated animate__slideInLeft" href="#"
+          >Web<span class="logo-part-header animate__animated animate__slideInLeft">Studio</span></a
         >
         <nav class="header-nav">
           <ul class="nav-list">
@@ -34,7 +46,7 @@
             <li class="nav-link"><a class="nav-link" href="#">Контакти</a></li>
           </ul>
         </nav>
-        <ul class="header-contakts">
+        <ul class="header-contakts animate__animated animate__slideInRight">
           <li class="contakts-item">
             <a class="contakts-link" href="mailto:info@devstudio.com">
               <svg class="mailto">
@@ -57,7 +69,7 @@
     <main>
       <section class="portfolio" id="scrol-top">
         <div class="container">
-          <ul class="portfolio-filter">
+          <ul class="portfolio-filter" data-aos="zoom-in-down">
             <li class="filter-item">
               <button class="filter-button">Усі</button>
             </li>
@@ -331,5 +343,10 @@
         </form>
       </div>
     </footer>
+    <!--------js--------->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
